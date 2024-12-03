@@ -51,7 +51,7 @@ This repository is a clone for the **Frontend Challenge**.
 - The Argo CD configuration file points to this directory for deployment.
 - Any changes made in this repository will automatically reflect in the Kubernetes cluster, ensuring continuous deployment.
 
-## Summary
+# Summary
 
 - **Dockerfile**: Builds the app image.
 - **Docker Hub**: The image is available at `lepc72/frontend-challenge-lepc`.
