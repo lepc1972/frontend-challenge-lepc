@@ -1,4 +1,2 @@
 .eslintrc.json
-*.md
-*.json
 node_modules/
