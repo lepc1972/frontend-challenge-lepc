@@ -35,3 +35,25 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 # frontend-challenge-lepc
+
+
+
+This repository is a clone for the **Frontend Challenge**.
+
+## Docker Integration
+
+- A **Dockerfile** has been added to the project. The Dockerfile is used to build the application image.
+- The image is then pushed to Docker Hub under the repository `lepc72/frontend-challenge-lepc`.
+
+## Kubernetes Deployment
+
+- A Kubernetes manifest file is located in the `K8` directory of the repository.
+- The Argo CD configuration file points to this directory for deployment.
+- Any changes made in this repository will automatically reflect in the Kubernetes cluster, ensuring continuous deployment.
+
+## Summary
+
+- **Dockerfile**: Builds the app image.
+- **Docker Hub**: The image is available at `lepc72/frontend-challenge-lepc`.
+- **Argo CD**: The application is automatically deployed via Argo CD, reflecting any changes made to this repository.
+
